@@ -1,0 +1,7 @@
+<h1>Editing Post</h1>
+<%= image_tag @post.image, :style => "width: 200px" %>
+
+<%= render 'form', post: @post %>
+
+<%= link_to 'Show', @post %> |
+<%= link_to 'Back', posts_path %>
